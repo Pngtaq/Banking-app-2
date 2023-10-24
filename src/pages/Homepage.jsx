@@ -20,6 +20,7 @@ function Homepage() {
             START DEPOSITING NOW
           </Link>
         </div>
+        <div>Hello world</div>
       </section>
     </main>
   );
