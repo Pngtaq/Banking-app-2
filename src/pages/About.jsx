@@ -2,7 +2,7 @@ import PageNav from "../components/PageNav";
 
 export default function About() {
   return (
-    <div className="h-screen overflow-hidden px-16 py-4">
+    <div className="h-screen overflow-hidden px-16 py-4 px-4">
       <PageNav />
       <section>
         <div>
