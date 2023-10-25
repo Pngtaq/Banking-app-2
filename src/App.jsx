@@ -9,7 +9,7 @@ import About from "./pages/About";
 
 function App() {
   return (
-    <main className="h-full ">
+    <main className="h-full bg-gray-900 text-white">
       <BrowserRouter>
         <Routes>
           <Route index element={<Homepage />} />
