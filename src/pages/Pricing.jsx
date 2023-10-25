@@ -2,12 +2,14 @@ import PageNav from "../components/PageNav";
 
 export default function Pricing() {
   return (
-    <div>
+    <div className="h-full">
       <PageNav />
-      <section>
-        <div>
-          <h1>Simple pricing.</h1>
-          <h1>Just 10$/month</h1>
+      <section className="flex md:flex-row flex-col h-5/6 bg-gray-900">
+        <div className="p-6 flex flex-col justify-center items-center text-center">
+          <h1 className="sm:text-7xl text-4xl">Simple pricing.</h1>
+          <h1 className="sm:text-7xl text-4xl">
+            Just <span className="text-emerald-500">10$/month</span>
+          </h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
             veniam perferendis recusandae sed consequatur aliquam? Rem iure
@@ -15,7 +17,7 @@ export default function Pricing() {
             quasi placeat corporis velit aperiam?
           </p>
         </div>
-        <div>
+        <div className="p-6 flex justify-center items-center">
           <img src="/images/pricing-image.jpeg"></img>
         </div>
       </section>
