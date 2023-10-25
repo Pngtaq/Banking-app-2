@@ -2,7 +2,7 @@ import PageNav from "../components/PageNav";
 
 export default function Pricing() {
   return (
-    <div className="h-screen overflow-hidden px-16 py-4">
+    <div>
       <PageNav />
       <section>
         <div>

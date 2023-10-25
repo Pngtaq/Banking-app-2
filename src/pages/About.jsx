@@ -2,13 +2,12 @@ import PageNav from "../components/PageNav";
 
 export default function About() {
   return (
-    <div className="">
+    <div>
       <PageNav />
       <section>
         <div>
           <h1>Lorem ipsum dolor</h1>
           <h1>Lorem ipsum dolor</h1>
-          <p>hello world</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
             veniam perferendis recusandae sed consequatur aliquam? Rem iure
