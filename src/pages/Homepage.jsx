@@ -3,9 +3,9 @@ import PageNav from "../components/PageNav";
 
 function Homepage() {
   return (
-    <main className="h-screen">
+    <main className="grid h-screen grid-rows-[auto_1fr]">
       <PageNav />
-      <section className="flex flex-col items-center justify-center h-3/4 text-center text-white bg-gray-900 p-4">
+      <section className="flex flex-col items-center justify-center h-full text-center text-white bg-gray-900 p-4">
         <h1 className="sm:text-7xl text-4xl">
           {" "}
           Your <span className="text-emerald-500">money</span> is important to

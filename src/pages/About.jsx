@@ -2,9 +2,9 @@ import PageNav from "../components/PageNav";
 
 export default function About() {
   return (
-    <div className="h-full">
+    <div className="grid h-screen grid-rows-[auto_1fr]">
       <PageNav />
-      <section className="flex md:flex-row flex-col h-5/6 text-white">
+      <section className="flex md:flex-row flex-col h-full text-white justify-center items-center">
         <div className="p-6 flex flex-col justify-center items-center text-center">
           <h1 className="sm:text-6xl text-4xl">Lorem ipsum dolor</h1>
           <h1 className="sm:text-6xl text-4xl">Lorem ipsum dolor</h1>

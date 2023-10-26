@@ -2,10 +2,10 @@ import PageNav from "../components/PageNav";
 
 export default function Login() {
   return (
-    <div className="h-screen">
+    <div className="grid h-screen grid-rows-[auto_1fr]">
       <PageNav />
 
-      <div className="px-4 text-white flex items-center justify-center h-4/6">
+      <div className="px-4 text-white flex items-center justify-center h-full">
         <div className="bg-gray-700 w-4/6 rounded flex items-center justify-center leading-8 py-12">
           <form>
             <h4>Username</h4>

@@ -2,9 +2,9 @@ import PageNav from "../components/PageNav";
 
 export default function Pricing() {
   return (
-    <div className="h-full">
+    <div className="grid h-screen grid-rows-[auto_1fr]">
       <PageNav />
-      <section className="flex md:flex-row flex-col h-5/6 text-white">
+      <section className="flex md:flex-row flex-col text-white pt-10 h-5/6 justify-center items-center">
         <div className="p-6 flex flex-col justify-center items-center text-center">
           <h1 className="sm:text-7xl text-4xl">Simple pricing.</h1>
           <h1 className="sm:text-7xl text-4xl">
