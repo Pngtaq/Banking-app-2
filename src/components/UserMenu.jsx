@@ -2,15 +2,18 @@ import { NavLink } from "react-router-dom";
 
 export default function UserMenu({ handleIsOpen }) {
   return (
-    <div className="h-full text-white  flex flex-col justify-between py-10 bg-gray-800 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-90 border border-gray-300 rounded relative mb-3 md:w-1/2 w-full  px-10">
+    <div className="h-full text-white  flex flex-col justify-evenly py-10 bg-gray-800 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-90 border border-gray-300 rounded relative mb-3 md:w-1/2 w-full  px-10 ">
       <button
-        className="absolute top-2 right-5 rounded-full px-2 py-2 font-medium bg-gray-700 h-10 w-10 text-sm"
+        className="absolute top-6 right-10 rounded-full px-2 py-2 font-medium bg-gray-700 h-10 w-10 text-sm"
         onClick={handleIsOpen}
       >
         X
       </button>
-      <div className="flex flex-col">
-        <img src="/images/logo.png" className="w-16" />
+      <div className="flex flex-row items-center gap-10 ">
+        <img
+          src="https://i.pravatar.cc/48?u=118836"
+          className="w-16 rounded-full"
+        />
         <div>
           <p>Name: John Raison V. Salvador</p>
           <p>Account number: 2132131312</p>
