@@ -3,10 +3,9 @@ import PageNav from "../components/PageNav";
 
 function Homepage() {
   return (
-    <main className="h-full">
+    <main className="h-screen">
       <PageNav />
-
-      <section className="flex flex-col items-center justify-center h-3/4 text-center text-white bg-gray-900">
+      <section className="flex flex-col items-center justify-center h-3/4 text-center text-white bg-gray-900 p-4">
         <h1 className="sm:text-7xl text-4xl">
           {" "}
           Your <span className="text-emerald-500">money</span> is important to

@@ -2,11 +2,11 @@ import PageNav from "../components/PageNav";
 
 export default function Login() {
   return (
-    <div className="h-full ">
+    <div className="h-screen">
       <PageNav />
 
-      <div className="h-4/6 flex items-center justify-center px-4">
-        <div className="bg-gray-700 px-40 py-20 rounded  max-w-full flex items-center justify-center w-90 leading-8">
+      <div className="px-4 text-white flex items-center justify-center h-4/6">
+        <div className="bg-gray-700 w-4/6 rounded flex items-center justify-center leading-8 py-12">
           <form>
             <h4>Username</h4>
             <input type="email" className="rounded"></input>

@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="h-full">
       <PageNav />
-      <section className="flex md:flex-row flex-col h-5/6 bg-gray-900">
+      <section className="flex md:flex-row flex-col h-5/6 text-white">
         <div className="p-6 flex flex-col justify-center items-center text-center">
           <h1 className="sm:text-6xl text-4xl">Lorem ipsum dolor</h1>
           <h1 className="sm:text-6xl text-4xl">Lorem ipsum dolor</h1>
