@@ -3,6 +3,7 @@ import PageNav from "../components/PageNav.jsx";
 
 import UserAccountDetails from "../components/UserAccountDetails";
 import { useState } from "react";
+import { Outlet } from "react-router-dom";
 
 export default function AppLayout() {
   const [isOpen, setIsOpen] = useState(true);

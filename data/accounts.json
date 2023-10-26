@@ -1,0 +1,64 @@
+{
+  "accounts": [
+    {
+      "fullName": "John Raison V. Salvador",
+      "username": "raison",
+      "password": "1234",
+      "balance": 10000,
+      "loan": 500,
+      "transaction": {
+        "mode": "deposit",
+        "amount": 2000,
+        "date": "01-20-23"
+      }
+    },
+    {
+      "fullName": "John Raison V. Salvador",
+      "username": "raison",
+      "password": "1234",
+      "balance": 10000,
+      "loan": 500,
+      "transaction": {
+        "mode": "deposit",
+        "amount": 2000,
+        "date": "01-20-23"
+      }
+    },
+    {
+      "fullName": "John Raison V. Salvador",
+      "username": "raison",
+      "password": "1234",
+      "balance": 10000,
+      "loan": 500,
+      "transaction": {
+        "mode": "deposit",
+        "amount": 2000,
+        "date": "01-20-23"
+      }
+    },
+    {
+      "fullName": "John Raison V. Salvador",
+      "username": "raison",
+      "password": "1234",
+      "balance": 10000,
+      "loan": 500,
+      "transaction": {
+        "mode": "deposit",
+        "amount": 2000,
+        "date": "01-20-23"
+      }
+    },
+    {
+      "fullName": "John Raison V. Salvador",
+      "username": "raison",
+      "password": "1234",
+      "balance": 10000,
+      "loan": 500,
+      "transaction": {
+        "mode": "deposit",
+        "amount": 2000,
+        "date": "01-20-23"
+      }
+    }
+  ]
+}
