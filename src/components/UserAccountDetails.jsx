@@ -20,8 +20,8 @@ export default function UserAccountDetails() {
         <h1 className="text-4xl">Current Loan</h1>
         <h1 className="text-7xl text-red-500">P3000</h1>
       </div>
-      <div className="font-medium  col-span-2 bg-gray-800 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-90 border border-gray-100 h-40 overflow-auto py-2 px-4">
-        <div className="flex flex-col">
+      <div className="font-medium  col-span-2 bg-gray-800 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-90 border border-gray-100 h-40 py-2 px-4 overflow-y-auto">
+        <div className="flex flex-col-reverse flex-end">
           <div>
             <p className="flex justify-between">
               <span>Transaction </span> <span>3000 1</span>
@@ -155,14 +155,6 @@ export default function UserAccountDetails() {
             </p>
           </div>
         </div>
-      </div>
-      <div className=" bg-gray-800 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-90 border border-gray-100 col-span-2 p-4">
-        <h1>Mode of transaction</h1>
-        <label>Amount</label>
-        <input />
-        <h1>Mode of transaction</h1>
-        <label>Amount</label>
-        <input />
       </div>
     </div>
   );

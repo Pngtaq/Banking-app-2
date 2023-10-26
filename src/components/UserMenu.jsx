@@ -14,18 +14,21 @@ export default function UserMenu({ handleIsOpen }) {
           <p>Account number: 2132131312</p>
         </div>
       </div>
-      <div className="flex flex-col  text-center ">
-        <button className="rounded-md px-5 py-4 font-medium bg-gray-700 text-lg mt-10 hover:bg-gray-500">
+      <div className="flex flex-col  text-center gap-5">
+        <button className="rounded-md px-5 py-4 font-medium bg-gray-700 text-lg  hover:bg-gray-500">
           Deposit
         </button>
-        <button className="rounded-md px-5 py-4 font-medium bg-gray-700 text-lg mt-10 hover:bg-gray-500">
+        <button className="rounded-md px-5 py-4 font-medium bg-gray-700 text-lg  hover:bg-gray-500">
           Withdraw
         </button>
-        <button className="rounded-md px-5 py-4 font-medium bg-gray-700 text-lg mt-10 hover:bg-gray-500">
+        <button className="rounded-md px-5 py-4 font-medium bg-gray-700 text-lg  hover:bg-gray-500">
           Loan
         </button>
-        <button className="rounded-md px-5 py-4 font-medium bg-gray-700 text-lg mt-10 hover:bg-gray-500">
+        <button className="rounded-md px-5 py-4 font-medium bg-gray-700 text-lg  hover:bg-gray-500">
           Bank transfer
+        </button>
+        <button className="rounded-md px-5 py-4 font-medium bg-gray-700 text-lg  hover:bg-gray-500">
+          Transaction history
         </button>
       </div>
       <div className="mx-auto">

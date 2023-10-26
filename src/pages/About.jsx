@@ -6,8 +6,8 @@ export default function About() {
       <PageNav />
       <section className="flex md:flex-row flex-col h-full text-white justify-center items-center">
         <div className="p-6 flex flex-col justify-center items-center text-center">
-          <h1 className="sm:text-6xl text-4xl">Lorem ipsum dolor</h1>
-          <h1 className="sm:text-6xl text-4xl">Lorem ipsum dolor</h1>
+          <h1 className="sm:text-7xl text-4xl">Lorem ipsum dolor</h1>
+          <h1 className="sm:text-7xl text-4xl">Lorem ipsum dolor</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
             veniam perferendis recusandae sed consequatur aliquam? Rem iure
