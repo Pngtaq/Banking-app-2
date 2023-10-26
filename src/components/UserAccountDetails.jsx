@@ -21,138 +21,41 @@ export default function UserAccountDetails() {
         <h1 className="text-7xl text-red-500">P3000</h1>
       </div>
       <div className="font-medium  col-span-2 bg-gray-800 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-90 border border-gray-100 h-40 py-2 px-4 overflow-y-auto">
-        <div className="flex flex-col-reverse flex-end">
-          <div>
-            <p className="flex justify-between">
-              <span>Transaction </span> <span>3000 1</span>
-              <span>date</span>
-            </p>
+        <div className="grid grid-flow-col grid-cols-[1fr,1fr,6rem] text-lg font-bold border-b-[1px]">
+          <p>Deposit</p>
+          <p>Amount</p>
+          <p>Date</p>
+        </div>
+        <div className="pt-1">
+          <div className="grid grid-flow-col grid-cols-[1fr,1fr,6rem]">
+            <p>Withdraw</p>
+            <p>200000</p>
+            <p>07-23-40</p>
           </div>
-          <div>
-            <p>
-              <span>Transaction </span> <span>3000 2</span>
-              <span>date</span>
-            </p>
+          <div className="grid grid-flow-col grid-cols-[1fr,1fr,6rem]">
+            <p>Bank Transfer</p>
+            <p>10000</p>
+            <p>01-23-23</p>
           </div>
-          <div className="row-span-6">
-            <p>
-              <span>Transaction </span> <span>3000 3</span>
-              <span>date</span>
-            </p>
+          <div className="grid grid-flow-col grid-cols-[1fr,1fr,6rem]">
+            <p>Loan</p>
+            <p>30000</p>
+            <p>07-10-23</p>
           </div>
-          <div>
-            <p>
-              <span>Transaction </span> <span>3000 1</span>
-              <span>date</span>
-            </p>
+          <div className="grid grid-flow-col grid-cols-[1fr,1fr,6rem]">
+            <p>Deposit</p>
+            <p>10000</p>
+            <p>07-01-23</p>
           </div>
-          <div>
-            <p>
-              <span>Transaction </span> <span>3000 2</span>
-              <span>date</span>
-            </p>
+          <div className="grid grid-flow-col grid-cols-[1fr,1fr,6rem]">
+            <p>Deposit</p>
+            <p>100</p>
+            <p>07-23-24</p>
           </div>
-          <div className="row-span-6">
-            <p>
-              <span>Transaction </span> <span>3000 3</span>
-              <span>date</span>
-            </p>
-          </div>
-          <div>
-            <p>
-              <span>Transaction </span> <span>3000 1</span>
-              <span>date</span>
-            </p>
-          </div>
-          <div>
-            <p>
-              <span>Transaction </span> <span>3000 2</span>
-              <span>date</span>
-            </p>
-          </div>
-          <div className="row-span-6">
-            <p>
-              <span>Transaction </span> <span>3000 3</span>
-              <span>date</span>
-            </p>
-          </div>
-          <div>
-            <p>
-              <span>Transaction </span> <span>3000 1</span>
-              <span>date</span>
-            </p>
-          </div>
-          <div>
-            <p>
-              <span>Transaction </span> <span>3000 2</span>
-              <span>date</span>
-            </p>
-          </div>
-          <div className="row-span-6">
-            <p>
-              <span>Transaction </span> <span>3000 3</span>
-              <span>date</span>
-            </p>
-          </div>
-          <div>
-            <p>
-              <span>Transaction </span> <span>3000 1</span>
-              <span>date</span>
-            </p>
-          </div>
-          <div>
-            <p>
-              <span>Transaction </span> <span>3000 2</span>
-              <span>date</span>
-            </p>
-          </div>
-          <div>
-            <p>
-              <span>Transaction </span> <span>3000 2</span>
-              <span>date</span>
-            </p>
-          </div>
-          <div className="row-span-6">
-            <p>
-              <span>Transaction </span> <span>3000 3</span>
-              <span>date</span>
-            </p>
-          </div>
-          <div>
-            <p>
-              <span>Transaction </span> <span>3000 1</span>
-              <span>date</span>
-            </p>
-          </div>
-          <div>
-            <p>
-              <span>Transaction </span> <span>3000 2</span>
-              <span>date</span>
-            </p>
-          </div>
-          <div>
-            <p>
-              <span>Transaction </span> <span>3000 2</span>
-              <span>date</span>
-            </p>
-          </div>
-          <div className="row-span-6">
-            <p>
-              <span>Transaction </span> <span>3000 3</span>
-              <span>date</span>
-            </p>
-          </div>
-          <div>
-            <p>
-              <span>Transaction </span> <span>3000 1</span>
-              <span>date</span>
-            </p>
-          </div>
-          <div>
-            <p>
-              <span>Transaction </span> <span>3000 2</span>
-              <span>date</span>
-            </p>
+          <div className="grid grid-flow-col grid-cols-[1fr,1fr,6rem]">
+            <p>Bank Transfer</p>
+            <p>1000</p>
+            <p>07-23-23</p>
           </div>
         </div>
       </div>
