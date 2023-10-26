@@ -16,11 +16,11 @@ export default function UserMenu({ handleIsOpen }) {
         />
         <div>
           <p>
-            <span className="text-emerald-500">Name: </span> John Raison V.
+            <span className="text-emerald-300">Name: </span> John Raison V.
             Salvador
           </p>
           <p>
-            <span className="text-emerald-500">Account number: </span>{" "}
+            <span className="text-emerald-300">Account number: </span>{" "}
             2132131312
           </p>
         </div>

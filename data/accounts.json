@@ -13,11 +13,11 @@
       }
     },
     {
-      "fullName": "John Raison V. Salvador",
-      "username": "raison",
+      "fullName": "Joanna Marie Alo",
+      "username": "twinkel",
       "password": "1234",
-      "balance": 10000,
-      "loan": 500,
+      "balance": 20000,
+      "loan": 0,
       "transaction": {
         "mode": "deposit",
         "amount": 2000,
