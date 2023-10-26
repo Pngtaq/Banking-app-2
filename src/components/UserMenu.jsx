@@ -25,7 +25,7 @@ export default function UserMenu({ handleIsOpen }) {
           Loan
         </button>
         <button className="rounded-md px-5 py-4 font-medium bg-gray-700 text-lg mt-10">
-          Transfer
+          Bank transfer
         </button>
       </div>
       <div className="mx-auto">
