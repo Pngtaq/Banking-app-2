@@ -7,6 +7,11 @@ import PageNotFound from "./pages/PageNotFound";
 import About from "./pages/About";
 import History from "./components/History";
 import { useEffect } from "react";
+import Deposit from "./components/Deposit";
+import Withdraw from "./components/Withdraw";
+import Transfer from "./components/Transfer";
+import Loan from "./components/Loan";
+
 // import { useEffect } from "react";
 
 function App() {
@@ -26,6 +31,10 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="applayout" element={<AppLayout />}>
           <Route index element={<Navigate replace to="history" />} />
+          <Route index path="deposit" element={<Deposit />} />
+          <Route index path="loan" element={<Loan />} />
+          <Route index path="withdraw" element={<Withdraw />} />
+          <Route index path="transfer" element={<Transfer />} />
           <Route index path="history" element={<History />} />
         </Route>
         <Route path="*" element={<PageNotFound />} />
